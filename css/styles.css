@@ -5,17 +5,21 @@ File Name: styles.css
 /*
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, ul, aside, figure, figcaption {
+body, header, nav, main, footer, img, h1, ul, aside, figure, figcaption, video {
 margin: 0;
 padding: 0;
 border: 0;
 
 }
-/*style rule for images */
+/*style rule for images and video */
 img {
   max-width: 100%;
   display: block;
 
+}
+video {
+  max-width: 100%;
+  display: block;
 }
 /* Style rules for mobile viewport*/
 
